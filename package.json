@@ -8,7 +8,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -23,5 +26,8 @@
     "url": "https://github.com/caiobukvar/curso-ponto-dev/issues"
   },
   "homepage": "https://github.com/caiobukvar/curso-ponto-dev#readme",
-  "description": "Implementando o curso-ponto-dev"
+  "description": "Implementando o curso-ponto-dev",
+  "devDependencies": {
+    "prettier": "^3.3.3"
+  }
 }

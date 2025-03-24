@@ -8,10 +8,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "next dev",
     "lint:check": "prettier --check .",
-    "lint:fix": "prettier --write ."
+    "lint:fix": "prettier --write .",
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -28,6 +29,7 @@
   "homepage": "https://github.com/caiobukvar/curso-ponto-dev#readme",
   "description": "Implementando o curso-ponto-dev",
   "devDependencies": {
+    "jest": "^29.7.0",
     "prettier": "^3.3.3"
   }
 }
